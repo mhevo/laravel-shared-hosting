@@ -1,0 +1,20 @@
+{
+  "name": "mhevo/laravel-shared-hosting",
+  "description": "Copy and edit files to deploy on a share hoster",
+  "type": "library",
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mhevo",
+      "email": "m.hennessen@mhevo.de"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Laraploy\\": "src/Laraploy/"
+    }
+  }
